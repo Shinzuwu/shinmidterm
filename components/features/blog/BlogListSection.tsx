@@ -26,13 +26,13 @@ export default function BlogListSection() {
   return (
     <section className="mx-auto max-w-6xl space-y-10 px-6 py-16">
       <div className="space-y-3">
-        <p className="text-xs font-medium tracking-[0.2em] text-teal-600 dark:text-teal-400">
+        <p className="text-xs font-medium tracking-[0.2em] text-teal-600 bg-gradient-to-r from-cyan-400 via-blue-500 to-indigo-600 bg-clip-text text-transparent">
           WRITING
         </p>
-        <h1 className="text-4xl font-bold tracking-tight text-zinc-900 dark:text-zinc-50">
+        <h1 className="text-4xl font-bold tracking-tight bg-gradient-to-r from-cyan-400 via-blue-500 to-indigo-600 bg-clip-text text-transparent">
           Blog
         </h1>
-        <p className="max-w-2xl text-lg text-zinc-600 dark:text-zinc-400">
+        <p className="max-w-2xl text-lg bg-gradient-to-r from-cyan-400 via-blue-500 to-indigo-600 bg-clip-text text-transparent">
           Notes on frontend design, Next.js architecture, and building a portfolio
           that stays easy to maintain.
         </p>
@@ -40,14 +40,14 @@ export default function BlogListSection() {
           Dynamic routes:{" "}
           <Link
             href="/category/design/writing"
-            className="font-medium text-teal-600 underline-offset-2 hover:underline dark:text-teal-400"
+            className="font-medium text-teal-600 underline-offset-2 hover:underline bg-gradient-to-r from-cyan-400 via-blue-500 to-indigo-600 bg-clip-text text-transparent"
           >
             category paths
           </Link>{" "}
           ·{" "}
           <Link
             href="/date/2026/03"
-            className="font-medium text-teal-600 underline-offset-2 hover:underline dark:text-teal-400"
+            className="font-medium text-teal-600 underline-offset-2 hover:underline bg-gradient-to-r from-cyan-400 via-blue-500 to-indigo-600 bg-clip-text text-transparent"
           >
             date filter
           </Link>
@@ -88,7 +88,7 @@ export default function BlogListSection() {
             <p className="text-xs font-semibold uppercase tracking-wider text-teal-600 dark:text-teal-400">
               {post.category}
             </p>
-            <h2 className="mt-2 text-xl font-semibold text-zinc-900 dark:text-zinc-50">
+            <h2 className="mt-2 text-xl font-semibold text-blue-900 dark:text-blue-50">
               {post.title}
             </h2>
             <p className="mt-2 flex-1 text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">
@@ -97,7 +97,7 @@ export default function BlogListSection() {
             <p className="mt-4 text-xs text-zinc-500">{post.date}</p>
             <Link
               href={`/blog/${post.slug}`}
-              className="mt-4 inline-flex w-fit text-sm font-medium text-teal-600 underline-offset-4 hover:underline dark:text-teal-400"
+              className="mt-4 inline-flex w-fit text-sm font-medium text-teal-600 underline-offset-4 hover:underline bg-gradient-to-r from-cyan-400 via-blue-500 to-indigo-600 bg-clip-text text-transparent"
             >
               Read article →
             </Link>

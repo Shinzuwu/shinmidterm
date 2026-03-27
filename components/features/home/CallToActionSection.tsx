@@ -5,11 +5,11 @@ export default function CallToActionSection() {
     <section className="mx-auto max-w-7xl px-6 pb-20">
       <div className="flex flex-col gap-6 rounded-[28px] border border-[var(--border)] bg-[var(--card)]/90 p-8 shadow-lg shadow-zinc-200/40 backdrop-blur-sm dark:shadow-black/30 md:flex-row md:items-center md:justify-between md:p-12">
         <div>
-          <h2 className="text-2xl font-bold text-zinc-900 dark:text-zinc-50 md:text-3xl">
-            Need a frontend developer?
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-cyan-400 via-blue-500 to-indigo-600 bg-clip-text text-transparent md:text-3xl">
+            Need a consistent frontend developer?
           </h2>
-          <p className="mt-2 text-zinc-600 dark:text-zinc-400">
-            Let&apos;s build a portfolio, landing page, or product site together.
+          <p className="mt-2 bg-gradient-to-r from-cyan-400 via-blue-500 to-indigo-600 bg-clip-text text-transparent  ">
+            Let&apos;s build and work together.
           </p>
         </div>
         <Link

@@ -7,15 +7,15 @@ type CategoryPathSectionProps = {
 export default function CategoryPathSection({ slug }: CategoryPathSectionProps) {
   return (
     <section className="mx-auto max-w-5xl px-6 py-16 md:py-20">
-      <p className="text-xs font-medium tracking-[0.2em] text-teal-600 dark:text-teal-400">
+      <p className="text-xs font-medium tracking-[0.2em] bg-gradient-to-r from-cyan-400 via-blue-500 to-indigo-600 bg-clip-text text-transparent">
         CATEGORY
       </p>
-      <h1 className="mt-3 text-3xl font-bold tracking-tight text-zinc-900 dark:text-zinc-50 md:text-4xl">
+      <h1 className="mt-3 text-3xl font-bold tracking-tight bg-gradient-to-r from-cyan-400 via-blue-500 to-indigo-600 bg-clip-text text-transparent md:text-4xl">
         Explorer
       </h1>
-      <p className="mt-4 max-w-2xl text-lg text-zinc-600 dark:text-zinc-400">
+      <p className="mt-4 max-w-2xl text-lg bg-gradient-to-r from-cyan-400 via-blue-500 to-indigo-600 bg-clip-text text-transparent">
         Catch-all route:{" "}
-        <span className="font-mono text-sm text-teal-700 dark:text-teal-300">
+        <span className="font-mono text-sm bg-gradient-to-r from-cyan-400 via-blue-500 to-indigo-600 bg-clip-text text-transparent">
           /category/[...slug]
         </span>
       </p>
@@ -25,7 +25,7 @@ export default function CategoryPathSection({ slug }: CategoryPathSectionProps) 
       </p>
       <Link
         href="/blog"
-        className="mt-8 inline-block text-sm font-medium text-teal-600 hover:underline dark:text-teal-400"
+        className="mt-8 inline-block text-sm font-medium text-teal-600 hover:underline bg-gradient-to-r from-cyan-400 via-blue-500 to-indigo-600 bg-clip-text text-transparent"
       >
         ← Back to blog
       </Link>

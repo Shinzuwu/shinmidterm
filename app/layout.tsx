@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Marvin Portfolio",
+  title: "Shinzu Portfolio",
   description: "Frontend Portfolio",
 };
 

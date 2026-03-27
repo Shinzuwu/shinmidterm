@@ -2,18 +2,12 @@ import Image from "next/image";
 import SimplePageSection from "@/components/features/shared/SimplePageSection";
 
 const projects = [
+
   {
-    title: "Profile Page",
-    description: "My very first React component and the spark for how I approach UI building today. Experimenting with props/state taught me how thinking in components boosts creativity.",
-    repoUrl: "https://github.com/mavii-codes/activity-1-profilepage",
-    image: "/project-images/ProfilePage.jpg",
-    alt: "Screenshot of profile page project",
-  },
-  {
-    title: "E-Commerce Web App",
-    description: "A bookstore SPA that lets users search, browse, and add to cart. Built with React, APIs, and Tailwind to keep navigation buttery smooth.",
-    repoUrl: "https://github.com/mavii-codes/midterm-appsdev",
-    image: "/project-images/E-commerce.jpg",
+    title: "E-Commerce Website",
+    description: "This project is a fully functional e-commerce shop interface built with Vite and React, designed to showcase cosmetic products.",
+    repoUrl: "https://github.com/JanAro1/Ecommerce-App.git",
+    image: "/project-images/ecoms.PNG",
     alt: "Screenshot of e-commerce web app",
   },
 ];
@@ -22,8 +16,16 @@ export default function ProjectsPage() {
   return (
     <section className="mx-auto max-w-5xl px-6 py-16 md:py-20">
       <SimplePageSection
-        title="Projects"
-        description="A curated collection of frontend work, from personal portfolio sections to complete responsive interfaces."
+        title={
+    <span className="bg-gradient-to-r from-cyan-400 via-blue-500 to-indigo-600 bg-clip-text text-transparent">
+      Projects
+    </span>
+  }
+       description={
+    <span className="bg-gradient-to-r from-cyan-400 via-blue-500 to-indigo-600 bg-clip-text text-transparent">
+      I’m showcasing my frontend project from building portfolio sections to crafting complete, responsive user interfaces.
+    </span>
+  }
       />
 
       <div className="mt-10 grid gap-6 sm:grid-cols-2">

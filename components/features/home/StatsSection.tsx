@@ -1,18 +1,18 @@
 const stats = [
   {
-    value: "02",
-    label: "PROJECTS SHIPPED",
-    sub: "Freelance & capstone",
+    value: "01",
+    label: "PROJECT DEPLOYED",
+    sub: "Projects",
   },
   {
-    value: "04",
+    value: "02",
     label: "DESIGN SYSTEMS",
     sub: "Reusable component kits",
   },
   {
-    value: "30+",
-    label: "FOCUS HOURS / WK",
-    sub: "Crafting front-end",
+    value: "50+",
+    label: "FOCUS HOURS",
+    sub: "Front end ",
   },
 ] as const;
 

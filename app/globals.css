@@ -5,39 +5,39 @@
 
 :root {
   --background: #fafafa;
-  --foreground: #18181b;
-  --accent: #0d9488;
-  --accent-muted: #5eead4;
+  --foreground: #1818ab;
+  --accent: #5b089e;
+  --accent-muted: #0f5226;
   --card: #ffffff;
   --border: rgba(24, 24, 27, 0.08);
   --hero-gradient: radial-gradient(
       ellipse 120% 80% at 20% 0%,
-      rgba(167, 243, 208, 0.45),
+      rgba(133, 19, 233, 0.45),
       transparent 55%
     ),
     radial-gradient(
       ellipse 100% 60% at 90% 20%,
-      rgba(186, 230, 253, 0.35),
+      rgba(45, 126, 197, 0.35),
       transparent 50%
     ),
     linear-gradient(180deg, #f8fafc 0%, #fafafa 100%);
 }
 
 .dark {
-  --background: #0c0c0e;
+  --background: #07070c;
   --foreground: #f4f4f5;
-  --accent: #2dd4bf;
-  --accent-muted: #115e59;
+  --accent: #1a17db;
+  --accent-muted: #212244;
   --card: #18181b;
   --border: rgba(244, 244, 245, 0.12);
   --hero-gradient: radial-gradient(
       ellipse 120% 80% at 20% 0%,
-      rgba(20, 83, 45, 0.35),
+      rgba(163, 119, 16, 0.35),
       transparent 55%
     ),
     radial-gradient(
       ellipse 100% 60% at 90% 20%,
-      rgba(30, 58, 138, 0.25),
+      rgba(0, 0, 0, 0.25),
       transparent 50%
     ),
     linear-gradient(180deg, #0c0c0e 0%, #18181b 100%);
