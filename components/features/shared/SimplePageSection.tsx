@@ -1,6 +1,6 @@
 type SimplePageSectionProps = {
-  title: string;
-  description: string;
+ title: React.ReactNode;
+description: React.ReactNode;
   eyebrow?: string;
 };
 
